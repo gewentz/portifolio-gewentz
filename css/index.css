@@ -143,11 +143,11 @@
 
     .home {
       position: absolute;
-      transform: translateY(2rem);
+      transform: translateY(.5rem);
       display: flex;
       flex-direction: column;
       padding: 2rem;
-      height: 30rem;
+      height: 25rem;
       flex-wrap: wrap;
       gap: 1rem;
       justify-content: center;
@@ -197,10 +197,13 @@
       height: auto;
       flex-wrap: wrap;
       background-color: #2EAE9D;
+      color: #f0f8ff;
+      text-shadow: 3px 0px 8px rgba(16, 16, 16, 1);
     }
 
     .about>h2 {
       text-align: center;
+      color: #f0f8ff;
     }
 
     #about {
@@ -220,6 +223,26 @@
       transform: perspective(5rem);
     }
 
+    #prism2 {
+      position: absolute;
+      left: -6rem;
+      transform: perspective(5rem);
+      z-index: 500;
+    }
+
+    #prism3 {
+      position: absolute;
+      left: -10rem;
+      transform: perspective(5rem);
+      z-index: 500;
+    }
+
+    #prism4 {
+      position: absolute;
+      right: -9rem;
+      transform: perspective(5rem);
+      z-index: 500;
+    }
 
     .cubes {
   position: absolute;
