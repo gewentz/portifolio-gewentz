@@ -90,6 +90,10 @@
       transform: translatey(-1rem);
     }
 
+    #hidden {
+      display: none;
+    }
+
     nav {
     position: sticky;
     top: 0;
