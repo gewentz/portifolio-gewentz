@@ -215,6 +215,13 @@ body {
   margin: 0 1rem;
 }
 
+#header > nav > ul > li > a:hover {
+  color: var(--dark-blue);
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 900;
+}
+
 #menu {
   display: none; /* Esconde o menu por padrão */
   flex-direction: column; /* Alinha os itens em coluna */
@@ -229,14 +236,15 @@ body {
   line-height: 5rem;
 }
 
-#mbMenu > button {
+#mbMenu {
   border: none;
   background-color: #fbf4f400;
   color: var(--dark-blue);
   font-weight: 900;
+
 }
 
-#mbMenu > button:hover {
+#mbMenu:hover {
   cursor: pointer;
 }
 
