@@ -1,5 +1,5 @@
 import HoverGrow from "./components/HoverGrow";
-
+import { Analytics } from "@vercel/analytics/react";
 function App() {
   return (
     <main className="container mx-auto p-2 md:p-6 w-full text-gray-50 flex flex-col items-center space-y-2">
@@ -180,6 +180,7 @@ function App() {
           </span>
         </div>
       </section>
+      <Analytics />
     </main>
   );
 }
