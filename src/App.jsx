@@ -2,7 +2,7 @@ import HoverGrow from "./components/HoverGrow";
 import { Analytics } from "@vercel/analytics/react";
 function App() {
   return (
-    <main className="container mx-auto p-2 md:p-6 w-full text-gray-50 flex flex-col items-center space-y-2 bg-site-pattern bg-fixed bg-no-repeat bg-cover">
+    <main className="container mx-auto p-2 md:p-6 w-full text-gray-50 flex flex-col items-center space-y-2 ">
       <div className="bg-gray-700 p-4 sticky top-0 rounded-md w-full flex flex-row justify-between items-center uppercase shadow-md z-20">
         <span>
           <img
