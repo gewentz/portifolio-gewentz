@@ -14,7 +14,7 @@ export default {
         secondary: "#7154BB",
       },
       backgroundImage: {
-        "site-pattern": "url('./bg.png')",
+        "site-pattern": "url('/bg.png')",
         "logo": "url('https://i.imgur.com/vkBFMZ5.png')",
         "site-cover": "url('https://i.imgur.com/8ConyDK.png')",
         "desktop-cover": "url('https://i.imgur.com/tlYNmND.png')",
