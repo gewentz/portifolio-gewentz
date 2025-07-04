@@ -1,25 +1,32 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
+        zentry: ["zentry", "sans-serif"],
+        general: ["general", "sans-serif"],
+        "circular-web": ["circular-web", "sans-serif"],
+        "robert-medium": ["robert-medium", "sans-serif"],
+        "robert-regular": ["robert-regular", "sans-serif"],
       },
       colors: {
-        primary: "#0F479C",
-        secondary: "#7154BB",
+        blue: {
+          50: "#DFDFF0",
+          75: "#dfdff2",
+          100: "#F0F2FA",
+          200: "#010101",
+          300: "#4FB7DD",
+        },
+        violet: {
+          300: "#5724ff",
+        },
+        yellow: {
+          100: "#8e983f",
+          300: "#edff66",
+        },
       },
-      backgroundImage: {
-        "site-pattern": "url('/bg.png')",
-        "logo": "url('https://i.imgur.com/vkBFMZ5.png')",
-        "site-cover": "url('https://i.imgur.com/8ConyDK.png')",
-        "desktop-cover": "url('https://i.imgur.com/tlYNmND.png')",
-      }
     },
-    plugins: [],
-  }
-}
+  },
+  plugins: [],
+};
